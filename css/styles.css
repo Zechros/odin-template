@@ -19,6 +19,13 @@ body{
     color: white;
 }
 
+.navflex-container h1,ul li{
+    cursor: pointer;
+    transition: 1s;
+}
+.navflex-container h1:hover,ul li:hover{
+    color: yellow;
+}
 .navflex-container ul{
     display: flex;
     gap: 30px;
@@ -30,7 +37,7 @@ body{
 .showcase{
     padding: 5rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     color: white;
 }
 .showcase .flexcontainer{
@@ -54,6 +61,7 @@ span{
     background: white;
     color: black;
     text-align: center;
+    padding: 20px;
 }
 
 .random ul{
@@ -67,4 +75,26 @@ span{
     border: 2px solid rgb(92, 92, 223);
     padding: 50px 15px;
     border-radius: 15px;
+}
+/* Random end */
+
+/*Quote Start*/
+.quoteContainer{
+    padding: 60px;
+    background-color: whitesmoke;
+}
+.quote{
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.quote p{
+    font-style: italic;
+}
+.quote h4{
+    font-size: 14px;
+    padding: 0;
+    text-align: right;
 }
