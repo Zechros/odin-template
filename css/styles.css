@@ -1,16 +1,22 @@
 *{
     font-family: 'Roboto', sans-serif;
-    color: rgb(251, 255, 243);
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    background-color: rgb(16, 16, 52);
+}
+
+body{
+    margin: 0;
+}
+.container{
+    background-color: rgb(7, 7, 51);
 }
 
 .navflex-container{
     display: flex;
     border: 0;
     justify-content: space-around;
+    color: white;
 }
 
 .navflex-container ul{
@@ -25,6 +31,7 @@
     padding: 5rem;
     display: flex;
     justify-content: space-around;
+    color: white;
 }
 .showcase .flexcontainer{
     display: flex;
@@ -43,3 +50,21 @@ span{
 }
 /* SHOW CASE END */
 
+.random{
+    background: white;
+    color: black;
+    text-align: center;
+}
+
+.random ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.randomDiv{
+    border: 2px solid rgb(92, 92, 223);
+    padding: 50px 15px;
+    border-radius: 15px;
+}
